@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Isaque sacudo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7FS-v6-Iye">
@@ -43,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="677.5" y="-672.5"/>
         </scene>
         <!--Vitor-->
         <scene sceneID="wg7-f3-ORb">
@@ -54,40 +54,54 @@
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vitor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZ2-67-QJV">
-                                <rect key="frame" x="237" y="34" width="126" height="108"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vitor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZ2-67-QJV">
+                                <rect key="frame" x="124" y="28" width="126" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="MS0-9x-36g"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndz-x3-Wng">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndz-x3-Wng">
                                 <rect key="frame" x="164" y="199" width="42" height="21"/>
                                 <color key="backgroundColor" red="0.089781920309999999" green="0.140465127" blue="0.84546638259999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.087502803510000005" green="0.1499101957" blue="0.84546638259999995" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xQ3-5J-ihs">
-                                <rect key="frame" x="164" y="351" width="123" height="29"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Asw-gO-rst">
+                                <rect key="frame" x="161" y="273" width="51" height="31"/>
+                            </switch>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xQ3-5J-ihs">
+                                <rect key="frame" x="124" y="396" width="123" height="29"/>
                                 <segments>
                                     <segment title="First"/>
                                     <segment title="Second"/>
                                 </segments>
                             </segmentedControl>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Asw-gO-rst">
-                                <rect key="frame" x="366" y="257" width="51" height="31"/>
-                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Asw-gO-rst" firstAttribute="top" secondItem="Ndz-x3-Wng" secondAttribute="bottom" constant="53" id="3Qn-9d-2vj"/>
+                            <constraint firstItem="Asw-gO-rst" firstAttribute="leading" secondItem="xQ3-5J-ihs" secondAttribute="leading" constant="37" id="3nL-zJ-B2K"/>
+                            <constraint firstItem="Asw-gO-rst" firstAttribute="leading" secondItem="Ndz-x3-Wng" secondAttribute="leading" constant="-3" id="67U-gS-7vg"/>
+                            <constraint firstItem="bZ2-67-QJV" firstAttribute="leading" secondItem="Ndz-x3-Wng" secondAttribute="leading" constant="-40" id="Jbe-aq-eGf"/>
+                            <constraint firstItem="bZ2-67-QJV" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="108" id="JnN-am-rNp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bZ2-67-QJV" secondAttribute="trailing" constant="109" id="OZX-fS-gq3"/>
+                            <constraint firstItem="Ndz-x3-Wng" firstAttribute="top" secondItem="bZ2-67-QJV" secondAttribute="bottom" constant="63" id="iu0-Cf-0jj"/>
+                            <constraint firstItem="bZ2-67-QJV" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" id="mWx-l9-zeX"/>
+                            <constraint firstItem="xQ3-5J-ihs" firstAttribute="top" secondItem="Asw-gO-rst" secondAttribute="bottom" constant="92" id="tdI-Tk-IGS"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Vitor" image="second" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="836" y="334"/>
+            <point key="canvasLocation" x="677.5" y="109.5"/>
         </scene>
         <!--Valeria-->
         <scene sceneID="Cu1-Uf-HHO">
@@ -98,7 +112,7 @@
                         <viewControllerLayoutGuide type="bottom" id="hYl-6R-l8W"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mwr-kx-A2W">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ROMANOTAV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iI-pl-FD8">
@@ -127,13 +141,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="25j-j8-FQ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="762" y="1126"/>
+            <point key="canvasLocation" x="677.5" y="893.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
